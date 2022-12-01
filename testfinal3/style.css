@@ -1,0 +1,451 @@
+/*!
+Theme Name: testfinal
+Theme URI: http://underscores.me/
+Author: asfakul_siam
+Author URI: http://@asfakulsiam
+Description: test project
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: testfinal
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+testfinal is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+
+
+/* basic adjustment */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body part */
+body{
+    background: url(./assets/images/bg/bg_main.gif) repeat-y top center;
+}
+/* basic body part end here */
+
+/* main class for call in every class as a main class */
+
+.widthBox{
+    max-width: 996px;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* main class end here */
+
+/* topbar part start here */
+.contentBox{
+    height: 28px;
+    background: #9E5BBA;
+    border-bottom: 1px solid red;
+    color: white;
+    font-size: 13px;
+    line-height: 24px;
+}
+.content_right p{
+    padding-right: 10px;
+    border-right: 1px solid white;
+    margin-right: 10px;
+}
+.content_right a{
+    color: white;
+}
+/* topbar part end here */
+
+
+/* logo part start from here */
+.logo_main{
+    height: 110px;
+}
+.logo_left a{
+    line-height: 110px;
+}
+/* searchbox */
+
+.search_box{
+    padding: 55px;
+}
+.search_box input{
+    width: 80%;
+    padding: 6px 3px;
+    font-size: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.541);
+    border-radius: 3px;
+}
+.search_box button{
+    width: 40px;
+    font-size: 9px;
+    border: 1px solid rgba(0, 0, 0, 0.645);
+    padding: 8px 0px 6px 0;
+    border-radius: 3px;
+    font-weight: 500px;
+}
+/* logoright */
+.logo_right{
+    padding-top: 25px;
+    position: relative;
+    left: -40px;
+}
+.logo_part1 img{
+    width: 35px;
+    height: 35px;
+    padding-right: 10px;
+    border-right: 1px solid black;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.logo_part2 p{
+    margin-bottom: 0;
+    font-size: 11px;
+    font-weight: 500px;
+    color: rgb(16, 16, 121);
+    margin-top: 19px;
+}
+
+/* logo part end here */
+
+/* navbaar part start here */
+.navbarmain{
+    height: 44px;
+    padding: 1px 0;
+    background: rgb(197, 195, 195);
+}
+.nav_bar li{
+    
+}
+.nav_bar a{
+    color: black;
+    border-right: 1px solid black;
+}
+.navbarmain ul li a{
+   
+}
+
+/* navbaar part end here */
+
+/* banner part start here */
+.banner img{
+    padding: 5px;
+    border: 2px solid red;
+    padding: 10px;
+    margin: 15px 0;
+    position: relative;
+    left: -12px;
+}
+
+/* slidr part start */
+.slider{
+    position: relative;
+    left: -12px;
+}
+.slider img{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    margin-bottom: 10px;
+}
+.navtabbar{
+    position: relative;
+    left: -12px;
+}
+.full_tabView{
+    height: 100px;
+}
+.full_button button{
+    color: rgb(150, 38, 142);
+}
+.full_tabView{
+    text-align: center;
+}
+.full_tabView a{
+    text-decoration: none;
+    display: inline-block;
+    color:rgb(150, 38, 142);
+    margin: 5px;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+/* banner part end here */
+
+
+/* some more part start here */
+.somemore h6{
+    font-weight: bold;
+    color: rgb(150, 38, 142);
+
+}
+.morepart a{
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+}
+.morepart p{
+    width: 330px;
+    border-bottom: 1px solid rgb(59, 195, 86);
+    font-size: 11px;
+    padding-bottom: 3px;
+    margin-bottom: 8px;
+    
+}
+
+/* more part end here */
+
+
+/* extra part start from here */
+.sokol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.sokol p{
+    width: 44px;
+    background: linear-gradient(rgba(128, 128, 128, 0.348),rgba(15, 101, 10, 0.255));
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 3px 4px;
+    
+}
+.bottomlogo img{
+    height: 65px;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+/* some more extra part */
+.extra1{
+    background: #609513;
+    color: white;
+    position: relative;
+    left: -12px;
+    height: 30px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.extra1 p{
+    padding: 0 10px;
+    margin: 0;
+    line-height: 30px;
+}
+.ytvideos{
+    position: relative;
+    left: -10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.videoo{
+    padding-right: 3px;
+    padding-left: 4px;
+}
+.ytvideos1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    left: -12px;
+}
+.videooo{
+    width: 219px;
+    height: 250px;
+    padding: 4px;
+    border: .5px solid rgba(82, 81, 81, 0.597);
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.videooo p{
+    text-align: center;
+    font-size: 11px;
+    padding-top: 9px;
+    font-weight: bold;
+}
+
+/* left part all done */
+
+.sidebar_start{
+    position: relative;
+    left: -25px;
+    margin-top: 17px;
+}
+.sidebar_start img{
+    width: 108%;
+    height: 100%;
+    margin-bottom: 10px;
+}
+
+/* sidebar left done */
+
+
+/* side bar bottom start */
+.sidebarbottom{
+    position: relative;
+    
+}
+.sdbottomp p{
+    font-size: 18px;
+    color: rgb(150, 38, 142);
+}
+.drop_down{
+    position: relative;
+    top: -15px;
+}
+.drop_down form{
+    display: flex;
+    
+}
+.dd_main{
+    width: 195%;
+    height: 27px;
+    border: 1px solid black;
+    line-height: 25px;
+    padding: 0px 10px !important;
+    font-size: 11px !important;
+    border-radius: 3px;
+}
+.dd_button{
+    font-size: 10px;
+    width: 40px;
+    height: 27px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.mujib_p{
+    height: 28px;
+    background: #609513;
+}
+.mujib_p p{
+    font-size: 13px;
+    line-height: 28px;
+    padding: 0 10px;
+    color: white;
+    font-weight: bold;
+}
+.mujib_video{
+    margin-bottom: 10px;
+}
+.another_p{
+    height: 40px;
+}
+.another_p p{
+    font-size: 18px;
+    line-height: 40px;
+    color: #6b2f91;
+}
+.digital_agee{
+    height: 35px;
+}
+.digital_agee p{
+    font-size: 14px;
+    line-height: 35px;
+    color: #6b2f91;
+}
+.rupmoybn_p{
+    height: 30px;
+}
+.rupmoybn_p p{
+    font-size: 14px;
+    line-height: 30px;
+    color: #6b2f91;
+}
+.footerimg img{
+    margin-bottom: 5px;
+}
+
+/* footer part start here */
+.footer_main img{
+    position: relative;
+    left: -12px;
+    margin-top: 80px;
+}
+.cp_r8{
+    height: 32px;
+}
+.cp_r8 p{
+    width: 1020px;
+    line-height: 32px;
+    font-size: 13px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.611), rgba(9, 82, 9, 0.611));
+    text-align: center;
+    position: relative;
+    left: -12px;
+}
+.f_left{
+    position: relative;
+    left: -12px;
+}
+.f_left ul li a{
+    font-size: 14px;
+    border-right: 1px solid rgba(128, 128, 128, 0.425);
+}
+.f_right{
+    position: relative;
+    top: 20px;
+    left: -30px;
+}
+.f_right p{
+    font-size: 9px;
+ 
+}
+.f_right a{
+    font-size: 9px;
+    text-decoration: none;
+    margin-right: 4px;
+    color: black;
+    
+}
+.leftside P{
+    font-size: 11px;
+    margin-top: 15px;
+}
+.rightside p{
+    font-size: 11px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+.rightside{
+    justify-content: end;
+}
+.rightside img{
+    width: 50%;
+    height: 6  0%;
+    margin-top: 5px;
+}
+
+
+
+/* dynamix */
+
+
+.menutop a{
+    padding: 0 10px 0 10px;
+    text-decoration: none   ;
+    color: black;
+    font-size: 13px;
+    border-right: 1px solid black;
+    margin-right: 5px;
+}
+
+.menutop a:hover{
+    background: #609513;
+    color: white;
+
+}
